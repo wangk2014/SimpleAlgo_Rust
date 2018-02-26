@@ -1,0 +1,6 @@
+[package]
+name = "simple_algo_rust"
+version = "0.1.0"
+authors = ["wangk2014 <2868212137@qq.com>"]
+
+[dependencies]
