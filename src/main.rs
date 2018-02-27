@@ -1,6 +1,6 @@
-extern crate simple_algo_rust;
-use simple_algo_rust::all_permutations;
+mod permutations;
 
+use permutations::all_permutations::all_permutations;
 
 fn main() {
 
