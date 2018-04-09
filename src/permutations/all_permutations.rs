@@ -1,6 +1,6 @@
-pub struct all_permutations;
+pub struct AllPermutations;
 
-impl all_permutations {
+impl AllPermutations {
 
     pub fn perm(&self, array: &mut Vec<i32>, start: usize) {
         if start == (array.len() - 1) {
@@ -10,10 +10,9 @@ impl all_permutations {
         let mut i = start;
         while i < array.len() {
             array.swap(i, start);
-            all_permutations.perm(array, start + 1);
+            AllPermutations.perm(array, start + 1);
             array.swap(i, start);
             i = i + 1;
         }
     }
 }
-
